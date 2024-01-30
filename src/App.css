@@ -30,11 +30,69 @@ display: flex;
   
 }
 
-.main_sec{
+.mainsec1{
   width: 100%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
 }
+
 
 .main_para{
 color:black;
+border: 5px red;
+box-sizing: border-box;
+
+
+}
+
+.mainsec2{
+
+  width: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.main-pic{
+  margin-top: 30px;
+  
+  width: 1500px;
+  height: 400px;
+}
+
+.About{
+  display: flex;
+  margin: auto;
+  overflow-x: hidden;
+
+}
+
+.Objective_efun{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-right: 500px; */
+  align-items: last baseline ;
+  }
+
+.objec_heading{
+color: #475467;
+font-size: 40px;
+margin-right: 370px;
+}
+
+
+
+/* p.a{
+  white-space: nowrap;
+} */
+
+.objec_para{
+
+font-size: 20px;
+
 
 }

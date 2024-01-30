@@ -2,8 +2,8 @@ import React from 'react'
 
 const Mainsec2 = () => {
   return (
-    <div>
-    <img src="./main-pic" className='main-pic' alt='pic'/>
+    <div className='mainsec2'>
+    <img src="./main-pic.png" className='main-pic' alt='pic'/>
     </div>
   )
 }
