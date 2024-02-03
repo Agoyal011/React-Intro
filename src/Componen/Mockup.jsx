@@ -2,6 +2,7 @@ import React from 'react'
 
 const Mockup = () => {
   return (
+    <>
     <div className='Mockup-Nav'>
 
 <div className='mockup-features'>
@@ -20,10 +21,20 @@ const Mockup = () => {
 
 </div>
 
-{/* <button>Sign In</button>
-<button>Get Started Today</button> */}
+
+
+
 
 </div>
+
+<div className='mainsec-mockup'>
+
+<p>The first Fundraising Resource Planning Software Platform </p>
+<h1> Connecting Fundraisers with Local Suppliers </h1>
+
+</div>
+
+</>
 
   )
 }
