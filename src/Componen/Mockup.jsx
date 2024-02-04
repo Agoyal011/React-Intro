@@ -29,10 +29,25 @@ const Mockup = () => {
 
 <div className='mainsec-mockup'>
 
-<p>The first Fundraising Resource Planning Software Platform </p>
-<h1> Connecting Fundraisers with Local Suppliers </h1>
+<p className='mockup-para'>The first Fundraising Resource Planning Software Platform </p>
+<div className='mockup-heading'>
+<h1> Connecting Fundraisers </h1>
+  <h1> With Local Suppliers </h1>
+  </div>
+  <div className='mockup-started-button'>
+  <sub-heading  ><a href ="#"> Get Started Today</a></sub-heading>
+  </div>
 
-</div>
+<div className='mockup-span'>
+  <span>Grow your Community Presence</span>
+  <span>Achieve your Funding Targets</span>
+  </div>
+
+<img src="/Mockup-pic.svg"></img>
+ 
+  
+
+  </div>
 
 </>
 

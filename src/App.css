@@ -1,5 +1,7 @@
 *{
-  margin:0; 
+  /* margin-left: 20px; 
+  margin-right: 20px; */
+  margin: 0;
   padding: 0;
 }
 
@@ -39,13 +41,33 @@ display: flex;
   color:#475467
 }
 
+.mainsec1-heading{
+  color:#475467;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
+}
+
+.mainsec1-para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
 
 
 .main_para{
 color:black;
-border: 5px red;
+border: 2px solid black;
 box-sizing: border-box;
+padding: 6px 20px;
+border-radius: 20px;
+background-color:lightgray;
+
+
 
 
 }
@@ -78,7 +100,7 @@ box-sizing: border-box;
 
 .about-info{
 color: #475467;
-font-size: 40px;
+font-size: 20px;
 }
 
 .Objective_efun{
@@ -92,8 +114,11 @@ font-size: 40px;
 
 .objec_heading{
 color: #475467;
-font-size: 40px;
-margin-right: 370px;
+font-size: 30px;
+display: flex;
+flex-direction: column;
+margin-right: 20px;
+
 }
 
 
@@ -105,6 +130,18 @@ margin-right: 370px;
 .objec_para{
 
 font-size: 20px;
+margin-top: 20px;
+}
+
+.objective-anchor{
+font-size: 20px;
+font-weight: bold;
+margin-top: 40px;
+border: 2px solid black;
+box-sizing: border-box;
+padding: 6px 20px;
+border-radius: 20px;
+background-color:lightgray;
 
 
 }
@@ -192,6 +229,54 @@ border-radius: 20px;
 
 }
 
+
+.mainsec-mockup{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 60px;
+font-size: 30px;
+}
+
+.mockup-para{
+margin-top: 100px;
+font-size: 20px;
+}
+
+.mockup-heading{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.mockup-started-button{
+
+  padding: 6px 20px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: lightgreen;
+  font-size: 20px;
+
+}
+
+.mockup-span{
+
+font-size: 20px;
+gap:50px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.Tools{
+margin-top: 50px;
+}
 
 
 

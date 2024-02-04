@@ -6,6 +6,7 @@ import Mainsec2 from './Componen/Mainsec2';
 import About from './Componen/About';
 import Objective from './Componen/Objective';
 import Mockup from './Componen/Mockup';
+import Tools from './Componen/Tools';
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
     <About></About>
     <Objective></Objective>
     <Mockup></Mockup>
+    <Tools></Tools>
  
 
     </div>

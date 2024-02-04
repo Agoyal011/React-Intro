@@ -4,8 +4,14 @@ const Mainsec1 = () => {
   return (
     
 <div className='mainsec1'>           
-    <p className='main_para'>UI UX DESIGN &nbsp;WEB DEVELOPMENT </p>
-    <h1>The First Fundraising Resource<br></br> &nbsp; &nbsp; &nbsp;&nbsp;   Planning Software</h1>
+    <div className='mainsec1-para'>
+    <span className='main_para'>UI UX DESIGN </span>
+    <span className='main_para'>WEB DEVELOPMENT </span>
+    </div>
+    <div className='mainsec1-heading'>
+    <h1>The First Fundraising Resource </h1>
+    <h1>  Planning Software</h1>
+      </div>
 
 
     </div>
