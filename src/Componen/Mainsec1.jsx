@@ -18,4 +18,4 @@ const Mainsec1 = () => {
   )
 }
 
-export default Mainsec1
+export default Mainsec1(props)
